@@ -28,9 +28,9 @@
         "name": "Wenlin Zhang"
       }
     ],
-    "concept_doi": null,
+    "concept_doi": "10.5281/zenodo.24413779",
     "current_version": 2,
-    "doi": null,
+    "doi": "10.5281/zenodo.24413780",
     "lean_source": {
       "revision": "a5ab754b3968a7da271b36fb2b1d878697d70892",
       "url": "https://github.com/the-omega-institute/trureturing/blob/a5ab754b3968a7da271b36fb2b1d878697d70892/D5/S3/FiniteGroups/Heisenberg/CommutingGraphQ4.lean"
