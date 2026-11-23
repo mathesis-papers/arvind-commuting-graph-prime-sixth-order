@@ -1,0 +1,23 @@
+{
+  "id": "arvind-commuting-graph-prime-sixth-order",
+  "revision": 2,
+  "problem_ids": [
+    "arvind-2023-commuting-graph-q4"
+  ],
+  "topic": "Non-isoclinic prime-power Heisenberg groups with isomorphic full commuting graphs",
+  "title": "Residue-field extensions of O'Brien's examples for Arvind–Cameron–Ma–Maslova's commuting-graph question",
+  "creators": [
+    {
+      "name": "Ma, Haobo",
+      "affiliation": "ChronoAI Pte Ltd, Singapore"
+    },
+    {
+      "name": "Zhang, Wenlin",
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore"
+    }
+  ],
+  "abstract": "For Arvind–Cameron–Ma–Maslova's Question 4, second sentence, in Section 9, p. 40 of arXiv:2305.07301v5 (27 July 2025), we extend the examples attributed there to Eamonn O'Brien to non-isoclinic groups of order q^6 with isomorphic full commuting graphs for every prime power q = p^f, including characteristic two, using residue-field coordinate charts for Heisenberg groups over two rings of order q^2. Their derived groups are (C_(p^2))^f and (C_p)^(2f). The common graph is chordal and perfect but neither a cograph, a split graph nor a threshold graph; its clique structure and degree distribution are explicit. The case f = 1 answers the posed all-prime question, and abelian factors give examples of every order p^n with n >= 6.",
+  "summary": "An explicit residue-field extension of O'Brien's finite-prime examples answers the prime-sixth-order question, with complete chart, group and graph-structure proofs. The graphs have clique number q^4, commuting probability q^(-2)+q^(-3)-q^(-5) and q^4+q^3-q conjugacy classes. Prime-field Lean declarations and written extensions are distinguished; exact finite checks include q = 4.",
+  "license": "cc-by-4.0",
+  "evidence_url": "https://github.com/the-omega-institute/trureturing/blob/a5ab754b3968a7da271b36fb2b1d878697d70892/D5/S3/FiniteGroups/Heisenberg/CommutingGraphQ4.lean"
+}

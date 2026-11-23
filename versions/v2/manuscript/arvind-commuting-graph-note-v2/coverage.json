@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "problem_ids": [
+    "arvind-2023-commuting-graph-q4"
+  ],
+  "posing_source": {
+    "authors": [
+      "V. Arvind",
+      "Peter J. Cameron",
+      "Xuanlong Ma",
+      "Natalia V. Maslova"
+    ],
+    "url": "https://arxiv.org/pdf/2305.07301v5#page=40",
+    "locator": "Section 9, Question 4, second sentence, p. 40",
+    "date": "2025-07-27",
+    "quote": "Do non-isoclinic examples exist for all orders p⁶ with p prime?"
+  },
+  "written_results": [
+    {
+      "locator": "Theorem 1",
+      "scope": "Every q=p^f, p prime, f>=1: H((Z/p^2Z)[X]/h) and H(F_q[epsilon]/epsilon^2) have order q^6 and isomorphic full commuting graphs, but derived groups (C_(p^2))^f and (C_p)^(2f); h is any monic lift of a degree-f irreducible polynomial over F_p."
+    },
+    {
+      "locator": "Lemma 2",
+      "scope": "Three disjoint charts and all six unordered chart-pair determinant-zero conditions; zero and whole-triple distinctness retained."
+    },
+    {
+      "locator": "Corollary 3",
+      "scope": "Common finite abelian factors, every order p^n for n>=6, and restriction to noncentral graphs."
+    },
+    {
+      "locator": "Corollary 4",
+      "scope": "Chordal and perfect, neither a cograph, a split graph nor a threshold graph; degrees q^6-1, q^5-1, q^4-1 with multiplicities q^2, q^4-q^2, q^6-q^4; clique/chromatic number q^4; commuting probability q^-2+q^-3-q^-5; conjugacy-class number q^4+q^3-q."
+    }
+  ],
+  "lean": {
+    "revision": "a5ab754b3968a7da271b36fb2b1d878697d70892",
+    "path_prefix": "D5/S3/FiniteGroups/Heisenberg/",
+    "declarations": [
+      {
+        "file": "CommutingGraphQ4.lean",
+        "names": [
+          "graphIso",
+          "not_isoclinic",
+          "result"
+        ],
+        "scope": "Concrete prime-field coefficient rings only (f=1), for every prime including 2; result is the existential order-p^6 statement."
+      },
+      {
+        "file": "DeterminantCharts.lean",
+        "names": [
+          "ResidueCoordinates",
+          "determinantEquiv_preserves"
+        ],
+        "scope": "Generic determinant-zero equivalence for commutative rings with the stated residue coordinates over a common field."
+      },
+      {
+        "file": "PrimeSquareCoordinates.lean",
+        "names": [
+          "squareCoordinates",
+          "dualCoordinates"
+        ],
+        "scope": "Coordinate instances for Z/p^2Z and dual numbers over F_p, not extension-field instances."
+      },
+      {
+        "file": "CommutingGraph.lean",
+        "names": [
+          "commutingGraph",
+          "Isoclinic",
+          "liftGraphIso",
+          "sourceDerived_axis"
+        ],
+        "scope": "All-element simple graph, source isoclinism convention, lifting determinant incidence with a central-coordinate bijection, and derived axis."
+      },
+      {
+        "file": "Basic.lean",
+        "names": [
+          "card_eq",
+          "commutatorElement_eq",
+          "commutator_eq_zAxis"
+        ],
+        "scope": "Heisenberg triple group law, cardinality, commutator and derived subgroup."
+      }
+    ],
+    "written_extensions": [
+      "Concrete extension-field coordinate instances and additive groups",
+      "Equality of centre and derived axis",
+      "Corollaries 3 and 4"
+    ]
+  },
+  "finite_checks": {
+    "arithmetic": "exact",
+    "verify.py": {
+      "base_vector_primes": [
+        2,
+        3,
+        5
+      ],
+      "full_triple_primes": [
+        2,
+        3
+      ],
+      "expected_output": "checks.json"
+    },
+    "verify_siblings.py": {
+      "residue_field_sizes": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "ordered_base_pairs": [
+        256,
+        6561,
+        65536,
+        390625
+      ],
+      "q4_rings": [
+        "(Z/4Z)[X]/(X^2+X+1)",
+        "F_4[epsilon]/epsilon^2"
+      ],
+      "scope": "Ring laws, all base pairs, derived exponents, primitive simplicial blocks, induced P4 and 2K2, centralizer/degree and conjugacy counts",
+      "expected_output": "sibling-checks.json"
+    }
+  },
+  "source_items": [
+    {
+      "locator": "ACMM v5, Section 9, Question 4, second sentence, p.40",
+      "coverage": "Answered: yes",
+      "proof": "Theorem 1, f=1",
+      "prior": "O'Brien's p=2,3,5 examples reported in 2025"
+    },
+    {
+      "locator": "ACMM v5, Section 9, Question 4, first sentence, p.40",
+      "coverage": "Explicit family and extensions proved; classification not covered",
+      "proof": "Theorem 1 and Corollary 3"
+    },
+    {
+      "locator": "Arvind–Cameron, arXiv:2206.01059v1, Section 8, p.21, closing question labelled Conjecture; repeated in ACMM v3 p.28 and v4 p.38",
+      "coverage": "Answered: no; prior counterexamples cited",
+      "proof": "Theorem 1",
+      "prior": "O'Brien, recorded in ACMM v5 Section 9 and acknowledgements p.55"
+    },
+    {
+      "locator": "ACMM v5, Section 9, converse question after Theorem 9.1, pp.39–40",
+      "coverage": "Answered: no; prior counterexamples cited",
+      "proof": "Theorem 1; not a new assertion of the converse"
+    },
+    {
+      "locator": "ACMM v5, Section 1, Question 2, p.2",
+      "coverage": "Partial coverage: chordal/perfect, neither cograph, split nor threshold for this family; classification not covered",
+      "proof": "Corollary 4"
+    },
+    {
+      "locator": "ACMM v5, Section 1, Questions 1 and 3, pp.2–3",
+      "coverage": "Not covered: recognition algorithms"
+    },
+    {
+      "locator": "ACMM v5, Section 11.2, Question 5, p.43",
+      "coverage": "Not covered: Frobenius groups"
+    },
+    {
+      "locator": "ACMM v5, Section 11.3, Problem 1, p.44",
+      "coverage": "Not covered: simple-group classification"
+    }
+  ],
+  "unposed_extensions": [
+    {
+      "statement": "The uniform extension-field family q=p^f",
+      "label": "Not posed; proved"
+    },
+    {
+      "statement": "Exact graph structure and numerical invariants",
+      "label": "Not posed; proved"
+    }
+  ]
+}

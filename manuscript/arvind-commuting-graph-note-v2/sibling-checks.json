@@ -1,0 +1,95 @@
+{
+  "arithmetic": "exact finite-ring arithmetic",
+  "checks": [
+    {
+      "clique_and_chromatic_number": 16,
+      "conjugacy_class_number": 22,
+      "derived_exponents": {
+        "dual": 2,
+        "square": 4
+      },
+      "group_degree_multiplicities": {
+        "15": 48,
+        "31": 12,
+        "63": 4
+      },
+      "group_order": 64,
+      "induced_2K2": true,
+      "induced_P4": true,
+      "ordered_base_pairs": 256,
+      "primitive_blocks": 6,
+      "residue_field_size": 2,
+      "simplicial_primitive_blocks": true,
+      "status": "pass",
+      "zero_determinant_ordered_pairs": 88
+    },
+    {
+      "clique_and_chromatic_number": 81,
+      "conjugacy_class_number": 105,
+      "derived_exponents": {
+        "dual": 3,
+        "square": 9
+      },
+      "group_degree_multiplicities": {
+        "242": 72,
+        "728": 9,
+        "80": 648
+      },
+      "group_order": 729,
+      "induced_2K2": true,
+      "induced_P4": true,
+      "ordered_base_pairs": 6561,
+      "primitive_blocks": 12,
+      "residue_field_size": 3,
+      "simplicial_primitive_blocks": true,
+      "status": "pass",
+      "zero_determinant_ordered_pairs": 945
+    },
+    {
+      "clique_and_chromatic_number": 256,
+      "conjugacy_class_number": 316,
+      "derived_exponents": {
+        "dual": 2,
+        "square": 4
+      },
+      "group_degree_multiplicities": {
+        "1023": 240,
+        "255": 3840,
+        "4095": 16
+      },
+      "group_order": 4096,
+      "induced_2K2": true,
+      "induced_P4": true,
+      "ordered_base_pairs": 65536,
+      "primitive_blocks": 20,
+      "residue_field_size": 4,
+      "simplicial_primitive_blocks": true,
+      "status": "pass",
+      "zero_determinant_ordered_pairs": 5056
+    },
+    {
+      "clique_and_chromatic_number": 625,
+      "conjugacy_class_number": 745,
+      "derived_exponents": {
+        "dual": 5,
+        "square": 25
+      },
+      "group_degree_multiplicities": {
+        "15624": 25,
+        "3124": 600,
+        "624": 15000
+      },
+      "group_order": 15625,
+      "induced_2K2": true,
+      "induced_P4": true,
+      "ordered_base_pairs": 390625,
+      "primitive_blocks": 30,
+      "residue_field_size": 5,
+      "simplicial_primitive_blocks": true,
+      "status": "pass",
+      "zero_determinant_ordered_pairs": 18625
+    }
+  ],
+  "coverage": "all base pairs, clique decomposition, degrees, conjugacy counts, induced P4 and 2K2, derived exponents for q=2,3,4,5",
+  "status": "pass"
+}

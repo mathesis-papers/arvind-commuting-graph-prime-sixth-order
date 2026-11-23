@@ -1,0 +1,42 @@
+{
+  "generated_paths": [
+    "CHANGELOG.md",
+    "CITATION.cff",
+    "CONTRIBUTING.md",
+    "LICENSES/CC-BY-4.0.txt",
+    "README.md",
+    "formalization/nodes.json",
+    "manuscript/arvind-commuting-graph-note-v2/README.md",
+    "manuscript/arvind-commuting-graph-note-v2/checks.json",
+    "manuscript/arvind-commuting-graph-note-v2/coverage.json",
+    "manuscript/arvind-commuting-graph-note-v2/metadata.json",
+    "manuscript/arvind-commuting-graph-note-v2/note.tex",
+    "manuscript/arvind-commuting-graph-note-v2/sibling-checks.json",
+    "manuscript/arvind-commuting-graph-note-v2/verify.py",
+    "manuscript/arvind-commuting-graph-note-v2/verify_siblings.py",
+    "paper.json",
+    "paper.pdf",
+    "source.archive"
+  ],
+  "generator_version": "0.1.0",
+  "sha256": {
+    "CHANGELOG.md": "d02b8f6dfe6a7c091dddee7ef9fcb5ed283d582ee3f2950a6750e9cfd5f7c8cf",
+    "CITATION.cff": "79e78cf6fdddef68e1eec57edf36c40e956826015131eea9b383e16da36cd4fe",
+    "CONTRIBUTING.md": "fafd66e63160b2a88f433af56d2af2b0f7bf6ed2fd417d46b54446ce07c627ff",
+    "LICENSES/CC-BY-4.0.txt": "58230517b7895aa219ff46a6ed63e67057a1582fb9ea054b16728a8c13525650",
+    "README.md": "9581b77f4a0ba6f0f493cb4016feb27ab24092c5c61493c45f2ae175f5c6e8a6",
+    "formalization/nodes.json": "ec9f84af6fe5f02485cc8d4fcb1c1eeb05979708c8ed2281a3e1b4c0206fb1e3",
+    "manuscript/arvind-commuting-graph-note-v2/README.md": "3d433ace3c8065a3d13c9db46cb11aa05e3fdcae5027adf6518546fd199d5df0",
+    "manuscript/arvind-commuting-graph-note-v2/checks.json": "073783a0045dac10de0a49b4434efabd5f9023325d7777e23e5a277ae5da7029",
+    "manuscript/arvind-commuting-graph-note-v2/coverage.json": "ebe65c8713c1c9c70a49a4a77b2c45912df51f1025363dd68cac2824f386c599",
+    "manuscript/arvind-commuting-graph-note-v2/metadata.json": "f93227073781c479c133783eacc170cb6fbd95e33fd0b90478a1a6a19e261acf",
+    "manuscript/arvind-commuting-graph-note-v2/note.tex": "592cfffb4d295a4486d48fbb81f3d0e3872ec6c03b0a707c15e97ca05b079805",
+    "manuscript/arvind-commuting-graph-note-v2/sibling-checks.json": "5a5597f48d6a8930f8616be1aca3f61dc2d4641bb3dd84f7b7866bad2dbe0bba",
+    "manuscript/arvind-commuting-graph-note-v2/verify.py": "b6f2cd2baf7adc9fca6f845c5f3de239b0e84d5d1334804608537a62e09c766b",
+    "manuscript/arvind-commuting-graph-note-v2/verify_siblings.py": "961d8be587f55b9e72f7abb1e4e2c5f61d27415ac96e85523bdbce08072562c5",
+    "paper.json": "26bd02b2ca672a99a6cf48cfbc8d99c64cc79868ef97c226bec171097417a796",
+    "paper.pdf": "d0006225adbf1cef7f50194d8be6d8139990f72facb5dcda8a1e4f08b2058a96",
+    "source.archive": "d9ca2711ee5d2435d618782aa60f9c44df6a2de64a696f3357fb029e82e01d0f"
+  },
+  "snapshot_identity": "e060eef5b3fe10745201d042dc677d47a10b7e47a55cea1ff637a103ed242eac"
+}

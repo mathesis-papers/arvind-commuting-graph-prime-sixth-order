@@ -1,0 +1,46 @@
+{
+  "arithmetic": "exact integer and finite-ring arithmetic",
+  "checks": [
+    {
+      "base_vectors": 16,
+      "derived_exponents": {
+        "dual": 2,
+        "square": 4
+      },
+      "group_order": 64,
+      "ordered_base_pairs": 256,
+      "ordered_full_vertex_pairs": 4096,
+      "prime": 2,
+      "status": "pass",
+      "zero_determinant_ordered_pairs": 88
+    },
+    {
+      "base_vectors": 81,
+      "derived_exponents": {
+        "dual": 3,
+        "square": 9
+      },
+      "group_order": 729,
+      "ordered_base_pairs": 6561,
+      "ordered_full_vertex_pairs": 531441,
+      "prime": 3,
+      "status": "pass",
+      "zero_determinant_ordered_pairs": 945
+    },
+    {
+      "base_vectors": 625,
+      "derived_exponents": {
+        "dual": 5,
+        "square": 25
+      },
+      "group_order": 15625,
+      "ordered_base_pairs": 390625,
+      "ordered_full_vertex_pairs": 0,
+      "prime": 5,
+      "status": "pass",
+      "zero_determinant_ordered_pairs": 18625
+    }
+  ],
+  "coverage": "chart bijections, determinant-zero equivalence, derived-axis exponents; full triple adjacency for primes at most 3",
+  "status": "pass"
+}
