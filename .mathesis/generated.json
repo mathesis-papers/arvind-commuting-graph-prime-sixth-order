@@ -25,7 +25,7 @@
     "CONTRIBUTING.md": "fafd66e63160b2a88f433af56d2af2b0f7bf6ed2fd417d46b54446ce07c627ff",
     "LICENSES/CC-BY-4.0.txt": "58230517b7895aa219ff46a6ed63e67057a1582fb9ea054b16728a8c13525650",
     "README.md": "7760a20502c6006f823d24e9b98f80bbc9f9f5c0d99482ba8615ebe128fa73d3",
-    "formalization/nodes.json": "ec9f84af6fe5f02485cc8d4fcb1c1eeb05979708c8ed2281a3e1b4c0206fb1e3",
+    "formalization/nodes.json": "f0c403d8717cf724984344ba47c79d09e1f84cf410cc7a854724ff18cd1822c2",
     "manuscript/arvind-commuting-graph-note-v2/README.md": "3d433ace3c8065a3d13c9db46cb11aa05e3fdcae5027adf6518546fd199d5df0",
     "manuscript/arvind-commuting-graph-note-v2/checks.json": "073783a0045dac10de0a49b4434efabd5f9023325d7777e23e5a277ae5da7029",
     "manuscript/arvind-commuting-graph-note-v2/coverage.json": "ebe65c8713c1c9c70a49a4a77b2c45912df51f1025363dd68cac2824f386c599",
@@ -38,5 +38,5 @@
     "paper.pdf": "d0006225adbf1cef7f50194d8be6d8139990f72facb5dcda8a1e4f08b2058a96",
     "source.archive": "d9ca2711ee5d2435d618782aa60f9c44df6a2de64a696f3357fb029e82e01d0f"
   },
-  "snapshot_identity": "d8372a88598c0e7c33f98d2d8b4a19044eb7dab0f918afd6e68a464064cd6325"
+  "snapshot_identity": "54ae2760b801e9a03eaf5e07d8efabf6095cdaa72961a52f3ec185e0c6b8dd4d"
 }
