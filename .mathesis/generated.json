@@ -34,9 +34,9 @@
     "manuscript/arvind-commuting-graph-note-v2/sibling-checks.json": "5a5597f48d6a8930f8616be1aca3f61dc2d4641bb3dd84f7b7866bad2dbe0bba",
     "manuscript/arvind-commuting-graph-note-v2/verify.py": "b6f2cd2baf7adc9fca6f845c5f3de239b0e84d5d1334804608537a62e09c766b",
     "manuscript/arvind-commuting-graph-note-v2/verify_siblings.py": "961d8be587f55b9e72f7abb1e4e2c5f61d27415ac96e85523bdbce08072562c5",
-    "paper.json": "c02924186f73c3d347274be8ddfba1e11abfa5b7fe75ff96d7e059133331bb70",
+    "paper.json": "e2695bbc8c616b000dc018b4c1880790a7b686b0e4c478543043605f78fb58b5",
     "paper.pdf": "d0006225adbf1cef7f50194d8be6d8139990f72facb5dcda8a1e4f08b2058a96",
     "source.archive": "d9ca2711ee5d2435d618782aa60f9c44df6a2de64a696f3357fb029e82e01d0f"
   },
-  "snapshot_identity": "54ae2760b801e9a03eaf5e07d8efabf6095cdaa72961a52f3ec185e0c6b8dd4d"
+  "snapshot_identity": "cecf0fc8cf8896f752b4a95e15093db892ef0ed78907a5b14dbef399db851f38"
 }

@@ -31,6 +31,7 @@
     "concept_doi": "10.5281/zenodo.24413779",
     "current_version": 2,
     "doi": "10.5281/zenodo.24413780",
+    "kind": "note",
     "lean_source": {
       "revision": "a5ab754b3968a7da271b36fb2b1d878697d70892",
       "url": "https://github.com/the-omega-institute/trureturing/blob/a5ab754b3968a7da271b36fb2b1d878697d70892/D5/S3/FiniteGroups/Heisenberg/CommutingGraphQ4.lean"
@@ -55,10 +56,12 @@
     "title": "Residue-field extensions of O'Brien's examples for Arvind–Cameron–Ma–Maslova's commuting-graph question",
     "versions": [
       {
+        "changelog": null,
         "previous_version": null,
         "published_on": "2026-11-23T16:24:25.417280218Z",
         "revision": "2",
-        "version": 2
+        "version": 2,
+        "version_label": null
       }
     ],
     "work": "arvind-commuting-graph-prime-sixth-order"
